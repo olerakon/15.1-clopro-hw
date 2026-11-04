@@ -1,0 +1,17 @@
+# Terraform runtime data
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Secrets and local overrides
+terraform/terraform.tfvars
+terraform/*.auto.tfvars
+authorized_key*.json
+*.pem
+*.key
+
+# OS/editor
+.DS_Store
